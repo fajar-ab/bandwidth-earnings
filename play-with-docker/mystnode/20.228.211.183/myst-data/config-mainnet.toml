@@ -1,4 +1,4 @@
-active-services = "dvpn,wireguard,data_transfer,scraping"
+active-services = "dvpn,wireguard,scraping,data_transfer"
 
 [mmn]
   api-key = "dSdFFmZ8Xch9dgsEBD1H03at2I0USezQlXM5Xxuz"
