@@ -13,7 +13,7 @@ tar -xzvf "$file_name"' > extract.sh && chmod +x extract.sh && ./extract.sh
 docker run
 
 ```sh
-docker run --cap-add NET_ADMIN -d -p 4449:4449 --name myst -v /root/myst-data:/var/lib/mysterium-node mysteriumnetwork/myst:latest service --agreed-terms-and-conditions
+docker run --cap-add NET_ADMIN -d -p 4449:4449 --name myst -v /root/myst-data:/var/lib/mysterium-node --restart unless-stopped mysteriumnetwork/myst:latest service --agreed-terms-and-conditions
 ```
 
 timer
